@@ -1,0 +1,12 @@
+D:\!users\Student_PL\Pulpit\test\gra\bin\Debug\baza.mdf
+D:\!users\Student_PL\Pulpit\test\gra\bin\Debug\baza_log.ldf
+D:\!users\Student_PL\Pulpit\test\gra\bin\Debug\gra.exe.config
+D:\!users\Student_PL\Pulpit\test\gra\bin\Debug\gra.exe
+D:\!users\Student_PL\Pulpit\test\gra\bin\Debug\gra.pdb
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.csprojAssemblyReference.cache
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.Form1.resources
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.Properties.Resources.resources
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.csproj.GenerateResource.cache
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.csproj.CoreCompileInputs.cache
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.exe
+D:\!users\Student_PL\Pulpit\test\gra\obj\Debug\gra.pdb

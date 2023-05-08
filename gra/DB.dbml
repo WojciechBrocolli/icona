@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="baza" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\baza.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="gra.Properties.Settings" SettingsPropertyName="bazaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Pixel" Member="Pixel">
+    <Type Name="Pixel">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="X" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Y" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Color" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PictureId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Picture_Pixel" Member="Picture" ThisKey="PictureId" OtherKey="Id" Type="Picture" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Picture" Member="Picture">
+    <Type Name="Picture">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Width" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Height" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Picture_Pixel" Member="Pixel" ThisKey="Id" OtherKey="PictureId" Type="Pixel" />
+    </Type>
+  </Table>
+</Database>
