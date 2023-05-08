@@ -11,7 +11,7 @@ namespace gra
         public override string ToString()
         {
             return $"{Name}({Width}, {Height})";
-           // return base.ToString();
+           // return base.ToString();adsasd
         }
     }
 }
